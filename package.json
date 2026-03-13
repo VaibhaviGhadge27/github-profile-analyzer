@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "engines": {
-    "node": "18.x"
-  },
   "homepage": "https://vaibhavighadge27.github.io/github-profile-analyzer",
   "scripts": {
     "dev": "vite",
