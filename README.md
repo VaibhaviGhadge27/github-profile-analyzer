@@ -1,16 +1,98 @@
-# React + Vite
+# GitHub Profile Analyzer 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that analyzes GitHub profiles using the GitHub REST API.
 
-Currently, two official plugins are available:
+Users can search for any GitHub username and view profile information and repositories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🔍 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Search any GitHub user
+* View GitHub profile details
+* Display public repositories
+* Show repository stars, forks, and language
+* Repository search functionality
+* Sort repositories by stars or name
+* Dark mode toggle
+* Direct link to open GitHub repositories
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* React
+* Vite
+* JavaScript
+* HTML
+* CSS
+* GitHub REST API
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── components
+│   ├── SearchBar.jsx
+│   ├── ProfileCard.jsx
+│   ├── RepoList.jsx
+│
+├── services
+│   └── githubApi.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```
+git clone https://github.com/VaibhaviGhadge27/github-profile-analyzer.git
+```
+
+Navigate to project folder:
+
+```
+cd github-profile-analyzer
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run development server:
+
+```
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌐 Live Demo
+
+Will be deployed on **Vercel**
+
+---
+
+## 👩‍💻 Author
+
+**Vaibhavi Ghadge**
+
+GitHub:
+https://github.com/VaibhaviGhadge27
